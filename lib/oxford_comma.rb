@@ -2,11 +2,11 @@ require 'pry'
 
 def oxford_comma(array)
   counter = 0
-    while counter < 2
+    while counter <= 2
       return array.join(" and ")
     end
   counter += 1 
-    while counter < 3
+    while counter >= 3
       return array.join(", ")
     end
   counter += 1
