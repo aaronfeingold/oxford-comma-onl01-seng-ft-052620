@@ -2,7 +2,7 @@ require 'pry'
 
 def oxford_comma(array)
   counter = 0
-    until counter < 1
+    until counter = 1
       return array.join(" and ")
     end
     while counter > 1 
