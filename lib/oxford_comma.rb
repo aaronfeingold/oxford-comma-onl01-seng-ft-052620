@@ -1,9 +1,10 @@
 require 'pry'
 
 def oxford_comma(array)
-   
+   index = 0
+   while index < array.length
  return array.join(", ")
-
+  
 end
 
 # def english_join(array = nil)
