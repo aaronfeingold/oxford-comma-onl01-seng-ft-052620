@@ -2,7 +2,7 @@ require 'pry'
 
 def oxford_comma(array)
    
- return array.join(", ") + " and" + array[-1]
+ return array.join(", ")
 
 end
 
