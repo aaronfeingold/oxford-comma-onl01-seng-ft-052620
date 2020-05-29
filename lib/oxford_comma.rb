@@ -5,7 +5,7 @@ def oxford_comma(array)
     while counter < 2
       return array.join(" and ")
     end
-    while counter > 2
+    while counter >= 2
       return array.join(", ")
     end
   counter += 1
